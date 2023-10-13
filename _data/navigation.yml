@@ -1,5 +1,7 @@
 main:
   - title: "About"
-    url: "https://t-mathews.github.io/about/"
+    url: "/about/"
   - title: "Resources"
-    url: "https://tmathews.github.io/resources/"
+    url: "/page-a/"
+  - title: "Posts"
+    url: "/page-b/"
