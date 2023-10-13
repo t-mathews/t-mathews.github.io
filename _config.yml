@@ -1,3 +1,66 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+
+locale:          "en-GB"
+title:           "Hawkix"
+title_separator: "|"
+subtitle:        "Version 0.0"
+url:             "https://t-mathews.github.io"
+repository:      "t-mathews/t-mathews.github.io"
+date_format: "%Y-%m-%d"
+
+search: true
+logo: "/assets/images/logo1.png"
+
+#for sidebar 
+author:
+  name: "Tobias Mathews"
+  avatar: "/assets/images/logo1.png"
+  bio: "All-Source Intelligence Enthusiast" 
+  location: "GB"
+  links:
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/t-mathews"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/t._mathews"
+
+
+#default settings
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+  # output
+  permalink: /about/
+
+
+
+
+
+
+
+
+
+lunr:
+  search_within_pages: true
+include: ["_pages"] 
 plugins:
   - jekyll-include-cache
