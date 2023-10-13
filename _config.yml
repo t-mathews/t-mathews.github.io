@@ -3,10 +3,11 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 
 locale:          "en-GB"
-title:           "Hawkix"
+title:           "Site"
 title_separator: "|"
 subtitle:        "Version 0.0"
 url:             "https://t-mathews.github.io"
+baseurl:         "/home" 
 repository:      "t-mathews/t-mathews.github.io"
 date_format: "%Y-%m-%d"
 
@@ -26,9 +27,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/t._mathews"
+# output
+permalink: /:categories/:title/
 
-
-#default settings
 defaults:
   # _posts
   - scope:
@@ -36,31 +37,25 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
+      comments: # true
       share: true
       related: true
-  # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: single
-      author_profile: true
+        layout: splash
 
-  # output
-  permalink: /about/
-
-
-
-
-
-
-
-
+permalink: /:categories/:title/
 
 lunr:
   search_within_pages: true
-include: ["_pages"] 
+
+include:
+  - _pages
+
+
 plugins:
   - jekyll-include-cache
