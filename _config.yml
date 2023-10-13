@@ -14,7 +14,7 @@ plugins:
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-locale                   : "en-UK"
+locale                   : "en-GB"
 title                    : "HAWKIX"
 title_separator          : "-"
 name                     : &name "Tobias Mathews"
@@ -81,7 +81,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "false" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -90,7 +90,7 @@ analytics:
 author:
   name             : "Tobias Mathews"
   avatar           : "profile.png"
-  bio              : "All-Source Intelligence Nerd"
+  bio              : "All-Source Intelligence Enthusiast"
   location         : 
   employer         :
   pubmed           : 
@@ -107,7 +107,7 @@ author:
   github           : "t-mathews"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "t._mathews"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
