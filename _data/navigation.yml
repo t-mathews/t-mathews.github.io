@@ -1,3 +1,5 @@
 main:
   - title: "About"
-    url: "https://t-mathews.github.io/about"
+    url: "https://t-mathews.github.io/about/"
+  - title: "Resources"
+    url: "https://tmathews.github.io/resources"

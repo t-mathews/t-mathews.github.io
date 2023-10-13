@@ -1,4 +1,6 @@
 ---
 permalink: /about/
-author: true
+author_profile: true
 ---
+
+<p> about page </p>

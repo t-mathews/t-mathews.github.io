@@ -17,7 +17,7 @@ logo: "/assets/images/logo1.png"
 author:
   name: "Tobias Mathews"
   avatar: "/assets/images/logo1.png"
-  bio: "All-Source Intelligence Enthusiast" 
+  bio: "" 
   location: "GB"
   links:
     - label: "Github"
@@ -26,9 +26,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/t._mathews"
-# output
-
-permalink: /:categories/:title/
 
 defaults:
   # _posts
@@ -47,8 +44,7 @@ defaults:
       type: pages
     values:
         layout: splash
-
-permalink: /:categories/:title/
+        author: true
 
 lunr:
   search_within_pages: true
