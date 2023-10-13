@@ -17,9 +17,9 @@ Skills
 ======
 * Open-Source Intelligence 
 
-Publications
+Resources
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.resources %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
