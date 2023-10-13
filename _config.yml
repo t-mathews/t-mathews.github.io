@@ -3,13 +3,12 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 
 locale:          "en-GB"
-title:           "Site"
+title:           ""
 title_separator: "|"
 subtitle:        "Version 0.0"
 url:             "https://t-mathews.github.io"
-baseurl:         "/home" 
 repository:      "t-mathews/t-mathews.github.io"
-date_format: "%Y-%m-%d"
+date_format:     "%Y-%m-%d"
 
 search: true
 logo: "/assets/images/logo1.png"
@@ -28,6 +27,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/t._mathews"
 # output
+
 permalink: /:categories/:title/
 
 defaults:
