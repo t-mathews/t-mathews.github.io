@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /page-a/
 layout: splash
 author_profile: false
 header:
@@ -7,8 +7,13 @@ header:
   actions:
     - label: "British Red Cross IOP Fund"
       url: "https://donate.redcross.org.uk/appeal/israel-and-occupied-palestinian-territory-appeal?c_code=175151&c_source=google&c_name=General%20Fund%20Appeal&adg=pure%20brand&c_creative=brand&c_medium=cpc&gclid=CjwKCAjwp8OpBhAFEiwAG7NaErpKF2ZkByfbf4HyIiwfvIBnV3jozBrWhdkweuU3PeCuBWCgiFyL2RoChQYQAvD_BwE"
-
-
 ---
 
-<p> home page </p>
+<h3> Common Tools </h3>
+
+<p> Listed below are various open-source intelligence tools that can be used to assist in people or event-orientated investigations: </p>
+<ul>
+  <li><a href="https://whatsmyname.app/">WhatsMyName Web</a></li>
+  <li><a href="https://29a.ch/photo-forensics/#forensic-magnifier">Forensically</a></li>
+</ul>
+
