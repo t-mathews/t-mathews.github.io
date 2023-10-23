@@ -3,7 +3,7 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 
 locale:          "en-GB"
-title:           ""
+title:           "OPEX"
 title_separator: "|"
 subtitle:        "Version 0.0"
 url:             "https://t-mathews.github.io"
@@ -35,6 +35,17 @@ defaults:
     values:
         layout: single
         author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 
 lunr:
   search_within_pages: true
