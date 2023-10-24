@@ -11,7 +11,7 @@ repository:      "t-mathews/t-mathews.github.io"
 date_format:     "%Y-%m-%d"
 
 search: true
-logo: "/assets/images/opex.png"
+logo: ""
 
 #for sidebar 
 author:
@@ -44,7 +44,7 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false
 
 
 lunr:
@@ -52,8 +52,6 @@ lunr:
 
 include:
   - _pages
-  - _portfolio
-
 
 plugins:
   - jekyll-include-cache
