@@ -8,12 +8,15 @@ tags:
   - Israel-Palestine
   - Hamas
 ---
+<h2> Overview </h2>
 
 On the evening of October 17th, 2023, reports emerged of a large blast at the Al-Ahli (Al-Ma'amadani) Hospital in Gaza City.
 
 Gaza's Ministry of Health immediately declared over 500 deaths and many more wounded, with the claim that the IAF had conducted an airstrike on the location.
 
 Israel Defence Force's Initial IDF Aftermath Report was released with the claim that "the Palestinian Islamic Jihad (PIJ) fired a barrage of ten rockets at Israel from a cemetery near the Al-Ahli Baptist Hospital in Gaza. This triggered rocket sirens as far north as Ramat Gan, Bat Yam and Beni Brak."
+
+<h2> Crater Analysis </h2>
 
 <figure>
     <a href="/assets/images/hospital-crater.png"><img src="/assets/images/hospital-crater.png"></a>
@@ -36,6 +39,7 @@ Regarding the size of the fireball at the point of impact shown in various video
     <figcaption>PIJ Rocket Arsenal, Fabian Hinz 2021</figcaption>
 </figure>
 
+<h2> Video Analysis </h2>
 
 For video analysis of events, and predictions of launch sites for the rocket, see <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vSNFt-WFpCYTJtubekgIl6zL-SVQcmtRN_1_Rn914jAgpS1RHtoDOFkJN4SBa8MJG7yIOP_KXp0Xq9Y/pub">Fdov21's document</a>.
 
